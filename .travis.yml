@@ -1,4 +1,6 @@
 language: swift
 xcode_project: CI_CD_Testing.xcodeproj # path to your xcodeproj folder
 xcode_scheme: CI_CD_Testing
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator
+xcode_sdk: iphonesimulator10.1
+
